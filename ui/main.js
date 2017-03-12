@@ -1,5 +1,5 @@
 console.log('Loaded!');
-var element = document.getElementId('main-text');
+var element = document.getElementbyId('main-text');
 element.innerhtmal= 'new vale';
 
 
