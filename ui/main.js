@@ -1,10 +1,16 @@
 console.log('Loaded!');
-var element = document.getElementbyId('main-text');
+
+//
+
+
+var element = document.getElementById('main-text'
+
+);
 element.innerhtmal= 'new vale';
 
 
 
-var img = document.getelementbyid('img');
+var img = document.getElementById('img');
 img.onclick=function(){
   img.style.marginleft='100px';  
 };
