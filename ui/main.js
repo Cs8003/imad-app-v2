@@ -16,7 +16,6 @@ button.onclick = function() {
         }
     }  
   };
-  request.open('GET','http://cs8003.imd.hasura-app.io/counter',true)
-;
+  request.open('GET','http://cs8003.imd.hasura-app.io/counter',true);
     request.send(null);
 };
