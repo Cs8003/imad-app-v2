@@ -14,6 +14,6 @@ button.onclick = function() {
         }
     }  
   };
-  request.open('GET','cs8003.imad.hasura-app.io/counter', true);
+  request.open('GET','http://cs8003.imad.hasura-app.io/counter', true);
     request.send(null);
 };
